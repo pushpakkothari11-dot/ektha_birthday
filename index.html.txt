@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff1f7">
+<title>Happy Birthday, Ektha ♡</title>
+<style>
+:root{--pink:#f5a9c8;--hot:#d95791;--blush:#fff1f7;--cream:#fffaf7;--ink:#56374a;--muted:#886c7c;--lav:#eee6ff;--green:#dcefcf}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--blush);color:var(--ink);font-family:"Trebuchet MS",ui-rounded,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.3;background-image:radial-gradient(#e8a4c2 1px,transparent 1px);background-size:22px 22px;z-index:-1}
+.wrap{width:min(900px,91%);margin:auto}nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;color:var(--muted);font-size:.85rem}.brand{font-weight:900;letter-spacing:.1em;color:var(--hot)}
+.hero{min-height:83vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:50px 0 85px;position:relative}.pill{background:#fff;border:1px solid #f4c6da;border-radius:99px;padding:9px 14px;color:var(--hot);font-size:.78rem;font-weight:800;letter-spacing:.08em}
+h1{font-size:clamp(3.5rem,12vw,7.7rem);letter-spacing:-.085em;line-height:.86;margin:25px 0 22px;color:#57384b}h1 span{color:var(--hot);display:inline-block;position:relative}h1 span:after{content:"♡";font-size:.35em;position:absolute;right:-.9em;top:-.15em;transform:rotate(15deg)}
+.lead{font-size:clamp(1rem,2.5vw,1.2rem);line-height:1.85;color:var(--muted);max-width:590px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{border:0;border-radius:99px;padding:14px 20px;font:inherit;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px #d9579128}.primary{background:var(--hot);color:white}.secondary{background:white;color:var(--hot);border:1px solid #f2c4d7}
+.float{position:absolute;right:5%;top:22%;font-size:clamp(3rem,9vw,6rem);animation:bob 3s ease-in-out infinite}.float2{position:absolute;right:19%;bottom:19%;font-size:2rem;animation:bob 4s ease-in-out infinite reverse}
+section{padding:56px 0}.kicker{font-size:.76rem;letter-spacing:.18em;text-transform:uppercase;color:var(--hot);font-weight:900}h2{font-size:clamp(2.1rem,6vw,4.2rem);line-height:1;letter-spacing:-.065em;margin:13px 0 17px}.copy{line-height:1.85;color:var(--muted);max-width:700px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:26px}.card{border:1px solid #f0cada;border-radius:24px;padding:24px;background:#fffafc;box-shadow:0 8px 28px #b65a8310}.card:nth-child(2){background:#fff7e9}.card:nth-child(3){background:#f5f0ff}.card:nth-child(4){background:#f2f9ed}.emoji{font-size:2rem}.card h3{font-size:1.2rem;margin:14px 0 8px}.card p{line-height:1.75;color:var(--muted);margin:0}
+.quote{margin-top:25px;background:#fff;border-radius:24px;padding:clamp(24px,5vw,40px);font-size:clamp(1.25rem,3.5vw,2rem);line-height:1.5;border:1px solid #f0cada}.quote b{color:var(--hot)}
+.special{background:#fff;border:1px solid #f0cada;border-radius:28px;padding:clamp(25px,5vw,44px);margin-top:24px}.special h3{font-size:clamp(1.8rem,5vw,3.2rem);line-height:1.12;letter-spacing:-.05em;margin:14px 0}.special strong{color:var(--hot)}
+.note{display:none;margin-top:22px;padding:25px;background:#fff;border:1px dashed #e6a3c1;border-radius:20px;line-height:1.9;color:var(--muted)}.note.show{display:block;animation:appear .65s ease both}.note b{color:var(--hot)}
+footer{padding:44px 0 55px;border-top:1px solid #efcddd;color:var(--muted);line-height:1.8}.footer-brand{color:var(--hot);font-weight:900;letter-spacing:.1em}
+.heart{position:fixed;pointer-events:none;z-index:9;animation:fall 3.5s ease-in forwards}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-15px) rotate(7deg)}}@keyframes appear{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes fall{to{transform:translateY(110vh) rotate(360deg);opacity:0}}
+@media(max-width:620px){.grid{grid-template-columns:1fr}.float{right:3%;top:13%;opacity:.7}.float2{right:12%;bottom:12%}.hero{min-height:76vh;padding-top:65px}nav{font-size:.75rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="brand">EKTHA + TWIN ♡</div><div>the birthday special ✿</div></nav>
+<header class="hero">
+  <div class="float" aria-hidden="true">🎀</div><div class="float2" aria-hidden="true">♡ ✨</div>
+  <div class="pill">A LITTLE WEBSITE FOR A VERY BIG HUMAN</div>
+  <h1>Happy Birthday,<br><span>Ektha!</span></h1>
+  <p class="lead">To my unofficial twin, my partner in random conversations, and the person who can turn an ordinary day into one of our stories. Today is all about you. 💗</p>
+  <div class="buttons"><a class="btn primary" href="#birthday-note">Your birthday note ↓</a><button class="btn secondary" onclick="showNote('secret')">Psst… tap for a secret ♡</button></div>
+  <div id="secret" class="note"><b>Secret message:</b> Ektha, I hope you know that you are genuinely one of my favourite people. Thank you for being exactly who you are. Now stop smiling at your screen and accept your birthday appreciation, totli. 🎀</div>
+</header>
+<section id="birthday-note">
+  <div class="kicker">01 / the twin theory</div>
+  <h2>Not siblings.<br>Definitely twin-coded.</h2>
+  <p class="copy">Somehow, life handed me a person who gets my jokes, joins my nonsense, and makes even the smallest moments feel memorable. Different homes, same wavelength. The universe really said: “Here, take a twin.”</p>
+  <div class="grid">
+    <article class="card"><div class="emoji">🌙</div><h3>Cheers to our 2 AM talks</h3><p>To the deep talks, the random tangents, the “okay, last thing” that is never the last thing, and conversations that somehow fix the whole day.</p></article>
+    <article class="card"><div class="emoji">🧠</div><h3>One shared brain cell</h3><p>We may not always make sense to the rest of the world, but at least one of us will understand the reference. Usually both. Sometimes neither. 😭</p></article>
+    <article class="card"><div class="emoji">🎀</div><h3>Totli moments</h3><p>A little teasing, lots of laughs, and the kind of silly moments that somehow become our favourite memories. 😂💗</p></article>
+    <article class="card"><div class="emoji">🫶</div><h3>Same team, always</h3><p>For the wins, the confusing days, the new dreams, and all the versions of ourselves we haven't met yet. I’m rooting for you.</p></article>
+  </div>
+  <div class="quote">“The best memories are the little moments that turn into stories only we understand.” ♡</div>
+</section>
+<section>
+  <div class="kicker">02 / our very serious plan</div>
+  <h2>HYROX is happening.<br>End of discussion. 🏁</h2>
+  <p class="copy">One day, we’re going to be standing at that start line, looking at each other like, “Wait… we actually made it here.” Until then: training, consistency, encouraging each other, and refusing to let the dream stay just a dream.</p>
+  <div class="special"><div class="kicker">OUR HYROX GOAL</div><h3>We are going to complete our HYROX. <strong>DEFINITELY.</strong></h3><p class="copy">Future us is counting on us. We’ll do it the smart way, one session at a time, and celebrate that finish line together. Just imagine the post-race photo. 🥹</p></div>
+</section>
+<section>
+  <div class="kicker">03 / a wish for your new year</div>
+  <h2>More happy tears.<br>More belly laughs.<br>More us.</h2>
+  <p class="copy">I hope this year brings you beautiful surprises, people who appreciate your heart, chances to do things that scare you in the best way, and countless reasons to be proud of yourself. I hope you keep growing without ever feeling like you have to become someone else to be enough.</p>
+  <div class="special"><div class="kicker">03 / something I’m grateful for</div><h3>Thank you for noticing the things I don’t always say out loud. 💗</h3><p class="copy">I’m genuinely grateful that you notice my emotions and try to make things better when I’m not feeling okay. The fact that you pay attention and care enough to try means more to me than I can properly explain. Thank you for being thoughtful in the little ways that matter.</p></div>
+  <div class="special"><div class="kicker">04 / your future is bright</div><h3>You’re going to achieve your goals. <strong>Definitely.</strong> ✨</h3><p class="copy">I truly believe you can reach the goals you set for yourself if you keep showing up, learning, and trusting your progress. And badminton? You’re going to get so good at it and reach a level you’ll be proud of. Keep practising, keep believing in yourself, and don’t give up on what matters to you. I’ll be cheering you on all the way. 🏸</p></div>
+  <div class="buttons"><button class="btn primary" onclick="showNote('finale'); hearts()">Open your actual birthday message 💌</button></div>
+  <div id="finale" class="note"><b>Happy birthday, Ektha. 💗</b><br><br>I know I might tease you, call you totli, and act like we share one functioning brain cell—but underneath all of that, I’m genuinely grateful to have you in my life.<br><br>Thank you for the laughs, the 2 AM talks, the random nonsense, and the memories we’ve already made. I hope we get a million more. Keep chasing your dreams, keep being your wonderfully weird self, and remember that you have someone cheering for you. I’m grateful for the way you notice my emotions and try to make things better, even when I don’t know how to explain what I’m feeling.<br><br>I believe you’ll achieve your life goals and become amazing at badminton. Keep working towards what you want—you have so much potential. And yes, we are absolutely completing our HYROX together.<br><br><b>Happy birthday to my twin, Ektha. 🫶🎀🏁</b></div>
+</section>
+<footer><div class="footer-brand">EKTHA, THIS ONE'S YOURS ♡</div><div>Built from friendship, 2 AM conversations, gratitude, and one very determined HYROX plan.</div><div style="font-size:.8rem;margin-top:10px">P.S. Birthday rule: you have to accept all compliments today. No arguing.</div></footer>
+</div>
+<script>
+function showNote(id){document.getElementById(id).classList.toggle('show');if(id==='finale'&&document.getElementById(id).classList.contains('show'))document.getElementById(id).scrollIntoView({behavior:'smooth',block:'center'});}
+function hearts(){for(let i=0;i<32;i++){const e=document.createElement('span');e.className='heart';e.textContent=['♡','💗','✿','✨','🎀'][Math.floor(Math.random()*5)];e.style.left=Math.random()*100+'vw';e.style.top='-35px';e.style.fontSize=(15+Math.random()*19)+'px';e.style.animationDuration=(2.5+Math.random()*2)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),5000);}}
+</script>
+</body>
+</html>
